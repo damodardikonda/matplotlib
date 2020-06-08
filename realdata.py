@@ -1,7 +1,7 @@
 import pandas as pd
 from itertools import count
 import random
-from matplotlib import pyplot as plt
+from matplotlib import pyplot as plt#plt is an pyplot object
 from matplotlib.animation import FuncAnimation
 
 plt.style.use('fivethirtyeight')
@@ -39,7 +39,7 @@ def animate(i):
 
 
 
-fun=FuncAnimation(plt.gcf(),animate,interval=1000)#gcf= get current figure
+func=FuncAnimation(plt.gcf(),animate,interval=1000)#gcf= get current figure
 
 #plt.plot(x,y)
 plt.show();
